@@ -10,5 +10,8 @@
     "dev": "parcel serve ./src/index.html",
     "build": "parcel build ./src/index.html --dist-dir build",
     "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
