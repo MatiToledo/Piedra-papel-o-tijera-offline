@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+.root {
+  background-image: url(./images/puntitos.png);
+  margin: 0;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 auto;
+  align-content: center;
+  max-width: 290px;
+}
+
+.home__button {
+  margin-top: 25px;
+  margin-bottom: 150px;
+}
+
+.start {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 auto;
+  align-content: center;
+  max-width: 290px;
+}
+
+.start__button {
+  margin-top: 25px;
+  margin-bottom: 150px;
+}
+
+.play {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 290px;
+}
+
+.play__temp {
+  margin: auto;
+}
+
+.play__computer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.result {
+  height: 100vh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
