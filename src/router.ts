@@ -5,19 +5,19 @@ import { initStart } from "./pages/start";
 
 const routes = [
   {
-    path: /\/home/,
+    path: /\/desafio-m5\/home/,
     handler: initHome,
   },
   {
-    path: /\/start/,
+    path: /\/desafio-m5\/start/,
     handler: initStart,
   },
   {
-    path: /\/play/,
+    path: /\/desafio-m5\/play/,
     handler: initPlay,
   },
   {
-    path: /\/result/,
+    path: /\/desafio-m5\/result/,
     handler: initResult,
   },
 ];
