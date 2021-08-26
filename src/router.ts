@@ -5,19 +5,23 @@ import { initStart } from "./pages/start";
 
 const routes = [
   {
-    path: /\/desafio-m5\/home/,
+    path: /\/home/,
     handler: initHome,
   },
   {
-    path: /\/desafio-m5\/start/,
+    path: /\/desafio-m5/,
+    handler: initHome,
+  },
+  {
+    path: /\/start/,
     handler: initStart,
   },
   {
-    path: /\/desafio-m5\/play/,
+    path: /\/play/,
     handler: initPlay,
   },
   {
-    path: /\/desafio-m5\/result/,
+    path: /\/result/,
     handler: initResult,
   },
 ];
@@ -45,4 +49,7 @@ export function initRouter(container: Element) {
   window.onpopstate = function () {
     handleRoute(location.pathname);
   };
+  if (location.host.includes("github.io")) {
+    goTo("/desafio-m5");
+  }
 }
