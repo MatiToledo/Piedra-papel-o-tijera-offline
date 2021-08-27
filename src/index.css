@@ -3,12 +3,13 @@
 }
 
 .root {
+  height: 100vh;
   background-image: url(./images/puntitos.png);
   margin: 0;
 }
 
 .home {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -23,7 +24,7 @@
 }
 
 .start {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -38,7 +39,7 @@
 }
 
 .play {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
