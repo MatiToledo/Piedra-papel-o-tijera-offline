@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+}
 
 .root {
   height: 100vh;
@@ -9,7 +12,7 @@
 }
 
 .home {
-  /* height: 100vh; */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -24,7 +27,7 @@
 }
 
 .start {
-  /* height: 100vh; */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -39,7 +42,7 @@
 }
 
 .play {
-  /* height: 100vh; */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
