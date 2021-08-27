@@ -16,6 +16,8 @@ export function initHome(params) {
   </div>
   `;
 
+  state.syncState();
+
   const button = div.querySelector(".home__button");
   button.addEventListener("click", () => {
     params.goTo("/start");

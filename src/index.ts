@@ -9,6 +9,9 @@ import { initRouter } from "./router";
 import { state } from "./state";
 
 (function () {
+  if (localStorage["saved-state"] == null) {
+    state.setState(state.data);
+  }
   state.init();
   const root = document.querySelector(".root");
   initRouter(root);

@@ -23,7 +23,7 @@ const state = {
     for (const cb of this.listeners) {
       cb(newState);
     }
-    console.log("state actual", newState);
+    console.log("STATE:", newState);
 
     localStorage.setItem("saved-state", JSON.stringify(newState));
   },
@@ -59,6 +59,11 @@ const state = {
       currentState.resultado = "Empate";
     }
     this.setState(currentState);
+  },
+  syncState() {
+    if (localStorage["saved-state"]) {
+      console.log("hola");
+    }
   },
 };
 
