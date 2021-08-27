@@ -9,6 +9,8 @@ import { initRouter } from "./router";
 import { state } from "./state";
 
 (function () {
+  console.log("para ver si funciona el deploy");
+
   if (localStorage["saved-state"] == null) {
     state.setState(state.data);
   }
