@@ -1,5 +1,3 @@
-import { state } from "../../state";
-
 export function initResult(params) {
   const div = document.createElement("div");
 
