@@ -60,11 +60,6 @@ const state = {
     }
     this.setState(currentState);
   },
-  syncState() {
-    if (localStorage["saved-state"]) {
-      console.log("hola");
-    }
-  },
 };
 
 export { state };
