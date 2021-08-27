@@ -1,5 +1,3 @@
-import { computerComp } from "./components/computer";
-
 type jugada = "piedra" | "papel" | "tijera";
 
 const state = {
@@ -25,7 +23,7 @@ const state = {
     for (const cb of this.listeners) {
       cb(newState);
     }
-    console.log("state nuevo", newState);
+    console.log("state actual", newState);
 
     localStorage.setItem("saved-state", JSON.stringify(newState));
   },
@@ -35,12 +33,10 @@ const state = {
   setMyPLay(move: jugada) {
     const currentState = this.getState();
     currentState.myPlay = move;
-    this.setState(currentState);
   },
   setComputerPlay(move: jugada) {
     const currentState = this.getState();
     currentState.computerPlay = move;
-    this.setState(currentState);
   },
   whoWins(my: jugada, computer) {
     const currentState = state.getState();

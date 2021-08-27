@@ -1,3 +1,5 @@
+import { state } from "../../state";
+
 export function initHome(params) {
   const div = document.createElement("div");
   div.innerHTML = `
