@@ -23,7 +23,7 @@ const state = {
     for (const cb of this.listeners) {
       cb(newState);
     }
-    console.log("STATE:", newState);
+    // console.log("STATE:", newState);
 
     localStorage.setItem("saved-state", JSON.stringify(newState));
   },
