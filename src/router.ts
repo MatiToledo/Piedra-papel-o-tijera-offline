@@ -50,6 +50,6 @@ export function initRouter(container: Element) {
     handleRoute(location.pathname);
   };
   if (location.host.includes("github.io")) {
-    goTo("/piedra-papel-o-tijera-offline");
+    goTo("/Piedra-papel-o-tijera-offline");
   }
 }
