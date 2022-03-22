@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html --dist-dir build --public-url /desafio-m5",
+    "build": "parcel build ./src/index.html --dist-dir build --public-url /Piedra-papel-o-tijera-offline",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {

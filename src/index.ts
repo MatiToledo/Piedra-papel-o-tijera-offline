@@ -9,7 +9,7 @@ import { initRouter } from "./router";
 import { state } from "./state";
 
 (function () {
-  if (localStorage["saved-state"] == null || "null") {
+  if (localStorage["saved-state"] == null) {
     state.setState(state.data);
   }
   state.init();

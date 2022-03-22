@@ -9,7 +9,7 @@ const routes = [
     handler: initHome,
   },
   {
-    path: /\/desafio-m5/,
+    path: /\/Piedra-papel-o-tijera-offline/,
     handler: initHome,
   },
   {
